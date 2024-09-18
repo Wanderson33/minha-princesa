@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ana Priscila</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fbeffb;
+            margin: 0;
+        }
+        .message-box {
+            background-color: #ffb6c1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1 {
+            color: #ff69b4;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-box">
+        <h1>Para Ana Priscila 💖</h1>
+        <p>Minha princesa, quero que você saiba que eu te amo muito! Você se tornou uma das pessoas mais importantes da minha vida, e cada momento ao seu lado é muito especial.</p>
+        <p>Obrigado por estar sempre comigo. Eu sou muito grato ao Senhor por tudo que vivemos e pelo amor que compartilhamos 🥹❤️.</p>
+        <p>Eu te amo, minha futura esposa! ❤️<p>
+        <button onclick="showLove()">Clique aqui para mais!</button>
+        <p id="extra-message" style="display:none; color: #ff69b4; font-size: 20px;">Te amo infinitamente! 💖</p>
+    </div>
+
+    <script>
+        function showLove() {
+            document.getElementById('extra-message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
